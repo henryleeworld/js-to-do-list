@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta property="og:title" content="待辦清單" />
+	<meta property="og:description" content="不依靠大腦記憶，只透過清楚的外部系統，讓自己在面對龐雜的事務時，從「不斷動腦」變成「只要動手」，照著待辦事項清單一項一項來，就能有效而且無壓的進行工作。" />
+	<meta property="og:locale" content="zh_TW" />
+	<meta property="og:type" content="website" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/to-do-list.css">
+    <title>待辦清單</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="clear">
+                <i class="fas fa-sync"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+        <div class="content">
+            <ul id="list">
+            </ul>
+        </div>
+        <div class="add-to-do">
+            <i class="fas fa-plus-circle"></i>
+            <input type="text" id="input" placeholder="新增待辦清單">
+        </div>
+    </div>
+    <script src="js/to-do-list.js"></script>
+</body>
+</html>
